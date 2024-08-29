@@ -18,29 +18,32 @@ CDC_COVID_19:DATASET DESCRIPTION
 
 * countriesAndTerritories: The name of the country or territory to which the data belongs.
 
-geoId: A short geographical identifier (code) for the country or territory.
+* geoId: A short geographical identifier (code) for the country or territory.
 
-countryterritoryCode
+* countryterritoryCode
 
 Information of the Dataset
-Columns = 10
-Rows = 9513
-Data types
-float -1
-integer - 5
-object - 4
-Occur Null values
-geoId - 25
-countryterritoryCode - 189
-popData2018 - 143
-No duplicate values
+
+* Columns = 10
+* Rows = 9513
+* Data types
+* float -1
+* integer - 5
+* object - 4
+* Occur Null values
+* geoId - 25
+* countryterritoryCode - 189
+* popData2018 - 143
+* No duplicate values
+  
 Questions :
-filter the dataset to include only rows where the countriesandterritories column is either united_states_of_america or india?
-filter the dataframe to include only the rows where the month column is either january or february
-select the rows where geoid is not in a list of excluded codes (excluded_codes=['US','IN','BR'])?
-Filter rows where the countriesAndTerritories column contains 'Germany','France','Italy'.
-Filter out rows where the countriesAndTerritories column not contains 'Germany','France','Italy'.
-extract geoid HR,CU,CW,CY -- reindex,year wise indexing
-extract countries and territory code = GVR, KNA, NLD, PRT --set index in day_name base
-filter the rows where cases>1000 and deaths>500
-set_index is month_name and sort in descending
+
+* filter the dataset to include only rows where the countriesandterritories column is either united_states_of_america or india?
+* filter the dataframe to include only the rows where the month column is either january or february
+* select the rows where geoid is not in a list of excluded codes (excluded_codes=['US','IN','BR'])?
+* Filter rows where the countriesAndTerritories column contains 'Germany','France','Italy'.
+* Filter out rows where the countriesAndTerritories column not contains 'Germany','France','Italy'.
+* extract geoid HR,CU,CW,CY -- reindex,year wise indexing
+* extract countries and territory code = GVR, KNA, NLD, PRT --set index in day_name base
+* filter the rows where cases>1000 and deaths>500
+* set_index is month_name and sort in descending
