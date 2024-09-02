@@ -72,4 +72,11 @@ Questions :
 * ##Apply():
 * create a function in Python that adds 5 to the population data from 2018 for each entry in a DataFrame?
 * apply a function to each row of a DataFrame to add 5 to the popData2018 column and store the result in a new column?
+* ##idxmax():
+* Which row in the dataset corresponds to the highest number of deaths, and what are the details of that row?
+* Which country or territory has the lowest minimum death count in the dataset?
+* Which row in the dataset corresponds to the lowest number of deaths, and what are the details of that row?
+* Which month has the highest maximum number of cases recorded across all months in the dataset?
+* ##Cut():
+* categorize the number of deaths in your dataset into different levels such as 'Low,' 'Medium,' 'High,' and 'Very High'
   
